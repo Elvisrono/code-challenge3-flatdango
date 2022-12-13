@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(){
         
-    const url = "http://localhost:3000/films"
+    const url = "https://api.npoint.io/0fd99609eb72596d7c69/films/"
     const filmsDiv = document.querySelector("#films")
     const posterDiv = document.querySelector("#poster")
     const showingDiv = document.querySelector("#showing")
