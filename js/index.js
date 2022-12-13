@@ -1,4 +1,4 @@
-let url = 'http://localhost:3000/films'
+let url = 'https://api.npoint.io/f8d1be198a18712d3f29/films/'
 const listHolder = document.getElementById('films')
 document.addEventListener('DOMContentLoaded', ()=>{
     document.getElementsByClassName('film item')[0].remove()
@@ -33,7 +33,7 @@ function addClickEvent(){
         // console.log(child)
 
         child.addEventListener('click',() => {
-            fetch(`${url}/${i+1}`)
+            fetch(`${url}/${i+0}`)
 
             .then(res => res.json())
             .then(movie => {
